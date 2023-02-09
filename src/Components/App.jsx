@@ -4,6 +4,8 @@ import Header from "./Header";
 import SignUp from "./SignUp";
 import LogIn from "./LogIn";
 import Dashboard from "./Dashboard";
+import ShowingRoute from "./ShowingRoute";
+import feedback  from "./feedback";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App()
 {
@@ -15,6 +17,8 @@ function App()
             <Route path="/signup" element={<SignUp />} />
             <Route path="/login" element={<LogIn />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/ShowingRoute" element={<ShowingRoute />} />
+            <Route path="/feedback" element={<feedback />} />
         </Routes>
         </BrowserRouter>
     );
