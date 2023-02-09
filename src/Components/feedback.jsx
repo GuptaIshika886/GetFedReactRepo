@@ -1,11 +1,10 @@
 import react from "react";
-
-function feedback()
-{
+function feedback(){
     return(
         <div>
-        Inside Feedback Page</div>
-    )
+        Inside feedback Page
+        </div>
+    );
 }
 
-export default feedback
+export default feedback;

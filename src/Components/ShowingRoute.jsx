@@ -1,10 +1,11 @@
-import react,{useState} from "react"
+import react,{useState} from "react";
 
 function ShowingRoute(){
     return(
         <div>
-        Hi</div>
-    )
+        Hi
+        </div>
+    );
 }
 
 export default ShowingRoute
